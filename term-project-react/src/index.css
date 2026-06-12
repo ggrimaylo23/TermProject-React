@@ -109,3 +109,15 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+.barcaImg, .cmatImg, .chessImg {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}
+
+.eireImg {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+}

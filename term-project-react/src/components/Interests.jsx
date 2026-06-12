@@ -1,3 +1,8 @@
+import barcaImg from '../assets/barca.jpg';
+import cmatImg from '../assets/cmat.jpg'
+import eireImg from '../assets/ireland.jpg'
+import chessImg from '../assets/chess.jpg'
+
 export default function Interests() {
     return (
         <main>
@@ -5,6 +10,7 @@ export default function Interests() {
 
             <section>
                 <h2>Soccer/Football</h2>
+                <img src={barcaImg} alt="barca" className="barcaImg"/>
                 <p>
                     Soccer has been a lifelong passion of mine. I have been playing the sport since
                     I was a child for the competitive nature as well as camraderie between my teammates.
@@ -16,6 +22,7 @@ export default function Interests() {
             </section>
             <section>
                 <h2>Music</h2>
+                <img src={cmatImg} alt="cmat" className="cmatImg"/>
                 <p>
                     This interest kind of snuck up on me, as I only became really passionate about it during college.
                     I gained a huge interest of music, listening to my favorite artists and seeing them perform live in person.
@@ -25,6 +32,7 @@ export default function Interests() {
             </section>
             <section>
                 <h2>Traveling</h2>
+                <img src={eireImg} alt="eire" className="eireImg"/>
                 <p>Traveling is a huge interest of mine, as I love to learn about new cultures and people around the world.
                     My parents are also immigrants to the United States, so visiting their home country has always been a great
                     experience to see family across the world. I think it is very important to learn about the different cultures
@@ -33,6 +41,7 @@ export default function Interests() {
             </section>
             <section>
                 <h2>Chess</h2>
+                <img src={chessImg} alt="chess" className="chessImg"/>
                 <p> 
                     I learned to play chess at a young age as my family encouraged me to learn the game to enhance my problem-solving
                     skills. I have enjoyed the game ever since, as the infinite possibilities of positions and games intrigues me.

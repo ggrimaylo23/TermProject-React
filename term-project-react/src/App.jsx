@@ -2,6 +2,7 @@ import Interests from "./components/Interests"
 import { Routes, Route } from "react-router-dom"
 import Biography from "./components/Biography"
 import Gallery from "./components/Gallery"
+import Contact from "./components/Contact"
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
         <Route path="/interests" element={<Interests />} />
         <Route path="/biography" element={<Biography />} />
         <Route path="/gallery" element={<Gallery />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   )

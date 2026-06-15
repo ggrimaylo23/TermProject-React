@@ -1,7 +1,7 @@
 export default function Resume() {
     return (
         <main>
-            <h1>Resume</h1>
+            <h1 className="resume-title">Resume</h1>
 
             <iframe
                 src="/resume.pdf"

@@ -17,7 +17,7 @@ export default function Gallery() {
     
     return (
         <div>
-            <h1>Photo Gallery</h1>
+            <h1 className="gallery-title">Photo Gallery</h1>
 
             <div className="photo-grid">
                 {

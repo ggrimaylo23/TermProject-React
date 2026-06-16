@@ -3,6 +3,8 @@ This is a personal portfolio project built using **React** and **React Router**.
 
 This project is deployed using **Netlify**.
 
+The goal of this project is to display basic information about me, including my interests and photos that summarize who I am, in a responsive website. My resume is shown displaying my past education and occupations.
+
 ## Live Demo Link
 
 ## Features

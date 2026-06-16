@@ -232,3 +232,10 @@ p {
 .not-found {
   text-align: center;
 }
+
+section p {
+  font-size: 1rem;
+  color: #444;
+  text-align: left;
+  margin-top: 10px;
+}

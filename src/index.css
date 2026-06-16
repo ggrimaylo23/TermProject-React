@@ -58,6 +58,12 @@ p {
   padding: 10px;
 }
 
+img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
 .barcaImg, .cmatImg, .chessImg {
   width: 500px;
   max-width: 100%;

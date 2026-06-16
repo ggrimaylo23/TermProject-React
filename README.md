@@ -6,6 +6,7 @@ This project is deployed using **Netlify**.
 The goal of this project is to display basic information about me, including my interests and photos that summarize who I am, in a responsive website. My resume is shown displaying my past education and occupations.
 
 ## Live Demo Link
+https://effulgent-rolypoly-5a857b.netlify.app/
 
 ## Features
 - Multi page layout implemented using React Router

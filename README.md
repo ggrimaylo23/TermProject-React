@@ -1,16 +1,45 @@
-# React + Vite
+# Personal Portfolio
+This is a personal portfolio project built using **React** and **React Router**. Different pages are shown: my resume, interests, a photo gallery, a contact form, and a short biography.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is deployed using **Netlify**.
 
-Currently, two official plugins are available:
+## Live Demo Link
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
+- Multi page layout implemented using React Router
+- Home page with navigation and summary, and a photo
+- Biography page with a photo and about me
+- Interests page with images and description of my interests
+- Responsive photo gallery
+- Embedded resume page
+- A contact me form with validation for email address
+- 404 Not Found page for invalid routes
 
-## React Compiler
+## Technologies Used
+- React
+- React Router DOM
+- JavaScript
+- CSS
+- Vite
+- Netlify
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Structure
+public/ # Resume and redirects config file for Netlify
+src/
+    components/ # Page components
+    assets/ # Images
+    App.jsx/ # Main app with routes
+    main.jsx/ # Entry point for application
 
-## Expanding the ESLint configuration
+## How to Run the Project
+1. Clone the repository from https://github.com/ggrimaylo23/TermProject-React
+2. Browse into the project root folder
+3. Install dependencies: `npm install`
+4. Run development server: `npm run dev`
+5. Open `http://localhost:5173`
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Author
+Gregory Grimaylo
+
+## Notes
+This project was created as part of course METCS601 Summer 1 2026.

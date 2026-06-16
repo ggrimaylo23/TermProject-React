@@ -5,13 +5,11 @@ import Gallery from "./components/Gallery"
 import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Home from "./components/Home"
-// import Links from "./components/Links"
 
 function App() {
 
   return (
     <div className="app">
-      {/* <Links /> */}
       <nav className="navbar">
         <Link to="/">Home</Link>
         <Link to="/biography">Biography</Link>

@@ -10,6 +10,8 @@ export default function Contact() {
   const handleSubmit = (event) => {
     //stops the page from reloading
     event.preventDefault();
+    setSuccessMessage("");
+    setEmailError("");
 
     //check whether the email ends with a dot followed by hard coded domains
     const emailEndingPattern = /\.(com|net|org|edu|gov|io)$/i;
@@ -54,7 +56,7 @@ export default function Contact() {
               required
             />
 
-            {emailError && <p className="email-error-message">{emailError}</p>}
+            {/* {emailError && <p className="email-error-message">{emailError}</p>} */}
           </div>
 
           <div>
@@ -75,6 +77,7 @@ export default function Contact() {
       {successMessage && (
         <p className="success-sending-message">{successMessage}</p>
       )}
+      {emailError && <p className="email-error-message">{emailError}</p>}
     </main>
   );
 }

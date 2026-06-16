@@ -209,3 +209,27 @@ p {
   font-size: 1rem;
   cursor: pointer;
 }
+
+.success-sending-message {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 12px;
+  text-align: center;
+  background-color: #e6f7ee;
+  color: green;
+  border: 1px solid #b7e4c7;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.email-error-message {
+  max-width: 600px;
+  margin: 15px auto;
+  padding: 12px;
+  text-align: center;
+  background-color: #fdecea;
+  color: red;
+  border: 1px solid #f5c2c7;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}

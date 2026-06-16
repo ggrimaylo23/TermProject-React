@@ -58,11 +58,6 @@ p {
   padding: 10px;
 }
 
-img {
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-}
 
 .barcaImg, .cmatImg, .chessImg {
   width: 500px;
@@ -100,8 +95,11 @@ img {
 
 .gallery-image {
   width: 100%;
-  height: 250px;
+  /* height: 250px; */
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: center;
+  display: block;
   border-radius: 10px;
 }
 
@@ -142,9 +140,13 @@ img {
 
 .interest-card img {
   width: 100%;
-  height: 200px;
+  /* height: 200px; */
+  aspect-ratio: 4 / 3 ;
   object-fit: cover;
+  object-position: center;
+  display: block;
   border-radius: 10px;
+  padding: 5px;
 }
 
 .navbar {

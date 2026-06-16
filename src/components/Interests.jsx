@@ -3,6 +3,7 @@ import cmatImg from "../assets/cmat.jpg";
 import eireImg from "../assets/ireland.jpg";
 import chessImg from "../assets/chess.jpg";
 
+//show a picture of each image, along with title and description
 export default function Interests() {
   return (
     <main>

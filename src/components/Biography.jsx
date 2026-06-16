@@ -1,4 +1,5 @@
 import bioImg from "../assets/biopic.jpg";
+//display an image and paragraph about me for the biography
 export default function Biography() {
     return (
         <main>

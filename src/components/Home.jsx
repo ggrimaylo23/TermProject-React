@@ -1,5 +1,6 @@
 import profilePicture from "../assets/barca-shirt.jpg"
 
+// on home page, have a title, site image, and a short description of the website.
 export default function Home() {
     return (
         <main>

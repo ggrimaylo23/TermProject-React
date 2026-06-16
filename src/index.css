@@ -233,3 +233,7 @@ p {
   border-radius: 8px;
   font-size: 0.95rem;
 }
+
+.not-found {
+  text-align: center;
+}

@@ -6,6 +6,8 @@ import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Home from "./components/Home"
 
+// have a navbar at the top with the different links to the different pages you can browse to.
+// should show up regardless of what page the user is on.
 function App() {
 
   return (
@@ -26,6 +28,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<h1 className="not-found">Error! Page Not Found!</h1>} />
       </Routes>
 
     </div>

@@ -41,6 +41,9 @@ src/
 4. Run development server: `npm run dev`
 5. Open `http://localhost:5173`
 
+## Project Presentation
+https://www.youtube.com/watch?v=fSufCadMM0E
+
 ## Author
 Gregory Grimaylo
 
